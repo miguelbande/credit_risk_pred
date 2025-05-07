@@ -29,7 +29,17 @@ Los datos provienen de una base realista con información sobre:
    - Comparación entre modelos (maximal, stepwise, con interacciones)
 4. **Modelos adicionales**: Regresión logística ordinal para explicar niveles de ingreso.
 
-## 🛠️ Herramientas
+
+
+## Interpretaciones
+
+En el documento **`risk_data_pptt.pdf`** se encuentra una presentación que resume los resultados clave del modelo, con interpretación de odds ratios, riesgos relativos, y decisiones sobre la selección de variables.
+
+## App Shiny
+
+Se incluye una aplicación web construida con **Shiny** para que el usuario pueda introducir variables y obtener una predicción instantánea del modelo de crédito.
+
+## Herramientas
 
 - R (caret, mice, MASS, ROCR, gmodels...)
 - Estadística categórica, análisis multivariante
